@@ -9,7 +9,7 @@ jobs:
   empty_branch:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Generate empty branch
       run: |
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
