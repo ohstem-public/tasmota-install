@@ -201,7 +201,7 @@ jobs:
         [ ! -f ./gh_latest/tasmota32s3*.* ] || mv ./gh_latest/tasmota32s3*.* ./firmware/release/
         [ ! -f ./gh_latest/tasmota32-safeboot* ] || mv ./gh_latest/tasmota32-safeboot* ./firmware/release/
         [ ! -f ./gh_latest/tasmota32-* ] || mv ./gh_latest/tasmota32-* ./firmware/release/languages/
-        [ ! -f ./gh_latest/tasmota32* ] || mv ./gh_latest/tasmota32* ./firmware/release/languages/
+        [ ! -f ./gh_latest/tasmota32* ] || mv ./gh_latest/tasmota32* ./firmware/release/
         [ ! -f ./gh_latest/tasmota-minimal.bin ] || rm -rf ./gh_latest/tasmota-minimal.bin
         [ ! -f ./gh_latest/* ] || mv ./gh_latest/* ./firmware/release/languages/
         rm -rf ./gh_latest
