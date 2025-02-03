@@ -72,8 +72,8 @@ jobs:
         find ./temp -type f -exec cp -t ./mv_firmware/firmware {} +
         rm -rf ./temp
         rm ./mv_firmware/firmware/soli*
-        mkdir -p ./firmware/tasmota/languages
-        mkdir -p ./firmware/tasmota32/languages
+        mkdir -p ./firmware/development
+        mkdir -p ./firmware/development/languages
         mkdir -p ./firmware/map
         [ ! -f ./mv_firmware/firmware/tasmota.* ] || mv ./mv_firmware/firmware/tasmota.* ./firmware/development
         [ ! -f ./mv_firmware/firmware/tasmota-4M.* ] || mv ./mv_firmware/firmware/tasmota-4M.* ./firmware/development
