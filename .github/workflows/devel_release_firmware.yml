@@ -63,19 +63,18 @@ jobs:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: Tasmota_build_devel.yml
         repo: arendst/tasmota
-        name: firmware*
+        name: tasmota*
         name_is_regexp: true
-    - name: Move development artifacts in one folder
+        path: ./temp
+    - name: Move firmware files in sub-folders
       run: |
-        mkdir -p ./mv_firmware
-        rsync -avR ./firmware/./ ./mv_firmware
-        rsync -avR ./firmware_safeboot/./ ./mv_firmware
-        rm -rf ./firmware/firmware
-        rm -rf ./firmware_safeboot
-    - name: Move development firmware files in sub-folders
-      run: |
-        mkdir -p ./firmware/development
-        mkdir -p ./firmware/development/languages
+        mkdir -p ./mv_firmware/firmware
+        find ./temp -type f -exec cp -t ./mv_firmware/firmware {} +
+        rm -rf ./temp
+        rm ./mv_firmware/firmware/soli*
+        mkdir -p ./firmware/tasmota/languages
+        mkdir -p ./firmware/tasmota32/languages
+        mkdir -p ./firmware/map
         [ ! -f ./mv_firmware/firmware/tasmota.* ] || mv ./mv_firmware/firmware/tasmota.* ./firmware/development
         [ ! -f ./mv_firmware/firmware/tasmota-4M.* ] || mv ./mv_firmware/firmware/tasmota-4M.* ./firmware/development
         [ ! -f ./mv_firmware/firmware/tasmota-sensors.* ] || mv ./mv_firmware/firmware/tasmota-sensors.* ./firmware/development
@@ -113,12 +112,17 @@ jobs:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: Build_special_firmware.yml
         repo: Jason2866/Tasmota-build
-        name: special*
+        name: tasmota*
         name_is_regexp: true
-    - name: Move special firmware files in folder
+        path: ./temp  
+    - name: Move files back
       run: |
+        mkdir -p ./special_firmware
+        find ./temp -type f -exec cp -t ./special_firmware {} +
+        rm -rf ./temp
+        ls -R ./special_firmware
         mkdir -p ./firmware/unofficial/
-        mv ./special_firmware/firmware/tasmota* ./firmware/unofficial/
+        mv ./special_firmware/tasmota* ./firmware/unofficial/
         rm -rf ./special_firmware
     - name: Update all Manifest files
       run: |
