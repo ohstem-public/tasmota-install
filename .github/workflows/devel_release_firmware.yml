@@ -63,7 +63,7 @@ jobs:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: Tasmota_build_devel.yml
         repo: arendst/tasmota
-        name: tasmota*
+        name: ^((?!berry).)*$
         name_is_regexp: true
         path: ./temp
     - name: Move firmware files in sub-folders
@@ -71,7 +71,6 @@ jobs:
         mkdir -p ./mv_firmware/firmware
         find ./temp -type f -exec cp -t ./mv_firmware/firmware {} +
         rm -rf ./temp
-        rm ./mv_firmware/firmware/soli*
         mkdir -p ./firmware/development
         mkdir -p ./firmware/development/languages
         mkdir -p ./firmware/map
