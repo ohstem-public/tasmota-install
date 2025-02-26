@@ -1,0 +1,50 @@
+{
+  "name": "Tasmota with Core IoT support (VN)",
+  "new_install_prompt_erase": true,
+  "funding_url": "https://paypal.me/tasmota",
+  "new_install_improv_wait_time": 10,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": true,
+      "parts": [
+        { "path": "../firmware/development/firmware/unofficial/coreiot-tasmota32-VN.factory.bin", "offset": 0 }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-C3",
+      "improv": true,
+      "parts": [
+        { "path": "../firmware/unofficial/coreiot-tasmota32c3-VN.factory.bin", "offset": 0 }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-C6",
+      "improv": true,
+      "parts": [
+        { "path": "../firmware/unofficial/coreiot-tasmota32c6-VN.factory.bin", "offset": 0 }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S2",
+      "improv": true,
+      "parts": [
+        { "path": "../firmware/unofficial/coreiot-tasmota32s2-VN.factory.bin", "offset": 0 }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S3",
+      "improv": true,
+      "parts": [
+        { "path": "../firmware/unofficial/coreiot-tasmota32s3-qio_opi-VN.factory.bin", "offset": 0 }
+      ]
+    },
+    {
+      "chipFamily": "ESP8266",
+      "improv": true,
+      "parts": [
+        { "path": "../firmware/unofficial/coreiot-tasmota-VN.factory.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

@@ -102,12 +102,14 @@ def main(args):
         merged = sorted(output[section][0],key=lambda d: d['name']) + sorted(output[section][1],key=lambda d: d['name']) + sorted(output[section][2],key=lambda d: d['name']) + sorted(output[section][3],key=lambda d: d['name']) + sorted(output[section][4],key=lambda d: d['name']) + sorted(output[section][5],key=lambda d: d['name'])
         output[section] = merged
 
+    coreiot = output.pop("coreiot")
     release = output.pop("release")
     development  = output.pop("development")
     unofficial = output.pop("unofficial")
 
 
     final_json = {}
+    final_json["coreiot"] = coreiot
     final_json["release"] = release
     final_json["development"] = development
     final_json["unofficial"] = unofficial

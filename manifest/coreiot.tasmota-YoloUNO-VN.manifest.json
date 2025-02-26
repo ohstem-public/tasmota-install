@@ -1,5 +1,5 @@
 {
-  "name": "CoreIoT-Tasmota32-S3 (QIO Flash/OPI PSRAM)",
+  "name": "CoreIoT Yolo UNO (VN)",
   "new_install_prompt_erase": true,
   "funding_url": "https://paypal.me/tasmota",
   "builds": [
@@ -7,7 +7,7 @@
       "chipFamily": "ESP32-S3",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/coreiot-tasmota32s3-qio_opi.factory.bin", "offset": 0}
+        { "path": "../firmware/unofficial/coreiot-tasmota32-YoloUNO.factory.bin", "offset": 0}
       ]
     }
   ]

@@ -1,0 +1,17 @@
+{
+    "name": "CoreIoT Yolo UNO",
+    "new_install_prompt_erase": true,
+    "funding_url": "https://paypal.me/tasmota",
+    "builds": [
+        {
+            "chipFamily": "ESP32-S3",
+            "improv": true,
+            "parts": [
+                {
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/coreiot-tasmota32-YoloUNO.factory.bin",
+                    "offset": 0
+                }
+            ]
+        }
+    ]
+}
