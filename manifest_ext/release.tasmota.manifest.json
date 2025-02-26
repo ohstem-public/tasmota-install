@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/tasmota32.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/tasmota32.factory.bin",
                     "offset": 0
                 }
             ]
@@ -19,7 +19,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/tasmota32c2.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/tasmota32c2.factory.bin",
                     "offset": 0
                 }
             ]
@@ -29,7 +29,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/tasmota32c3.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/tasmota32c3.factory.bin",
                     "offset": 0
                 }
             ]
@@ -39,7 +39,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/tasmota32c6.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/tasmota32c6.factory.bin",
                     "offset": 0
                 }
             ]
@@ -49,7 +49,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/tasmota32s2.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/tasmota32s2.factory.bin",
                     "offset": 0
                 }
             ]
@@ -59,7 +59,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/tasmota32s3.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/tasmota32s3.factory.bin",
                     "offset": 0
                 }
             ]
@@ -69,7 +69,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/tasmota.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/tasmota.bin",
                     "offset": 0
                 }
             ]

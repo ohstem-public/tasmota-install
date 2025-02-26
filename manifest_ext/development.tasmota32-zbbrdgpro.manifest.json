@@ -8,7 +8,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/development/tasmota32-zbbrdgpro.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/development/tasmota32-zbbrdgpro.factory.bin",
                     "offset": 0
                 }
             ]

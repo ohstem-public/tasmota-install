@@ -18,7 +18,7 @@ def convertJSON(infile,outfile):
         for build in data['builds']:
             for path in build['parts']:
                 # print(path['path'])
-                path['path'] = path['path'].replace("..", "https://tasmota.github.io/install")
+                path['path'] = path['path'].replace("..", "https://ohstem-public.github.io/tasmota-install/")
 
         # print(data)
         j = json.dumps(data,indent=4)
@@ -30,7 +30,7 @@ def getManifestEntry(manifest):
     entry = {}
     with open(manifest) as json_file:
         data = json.load(json_file)
-        entry['path'] = "https://tasmota.github.io/install/" + manifest
+        entry['path'] = "https://ohstem-public.github.io/tasmota-install/" + manifest.replace("\\","/")
         entry['name'] = data['name']
         entry['chipFamilies'] = []
         for build in data['builds']:

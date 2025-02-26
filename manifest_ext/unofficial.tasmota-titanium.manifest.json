@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32-titanium.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32-titanium.factory.bin",
                     "offset": 0
                 }
             ]
@@ -19,7 +19,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32c3-titanium.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32c3-titanium.factory.bin",
                     "offset": 0
                 }
             ]
@@ -29,7 +29,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32s2-titanium.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32s2-titanium.factory.bin",
                     "offset": 0
                 }
             ]
@@ -39,7 +39,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32s3-titanium.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32s3-titanium.factory.bin",
                     "offset": 0
                 }
             ]
@@ -49,7 +49,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial/tasmota-titanium.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota-titanium.bin",
                     "offset": 0
                 }
             ]

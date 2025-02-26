@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/development/tasmota32-nspanel.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/development/tasmota32-nspanel.factory.bin",
                     "offset": 0
                 }
             ]

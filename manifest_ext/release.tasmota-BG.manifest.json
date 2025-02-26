@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/languages/tasmota32-BG.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/languages/tasmota32-BG.factory.bin",
                     "offset": 0
                 }
             ]
@@ -19,7 +19,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/release/languages/tasmota-BG.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/release/languages/tasmota-BG.bin",
                     "offset": 0
                 }
             ]

@@ -8,7 +8,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/development/tasmota32-bluetooth.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/development/tasmota32-bluetooth.factory.bin",
                     "offset": 0
                 }
             ]
@@ -18,7 +18,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32c2-bluetooth.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32c2-bluetooth.factory.bin",
                     "offset": 0
                 }
             ]
@@ -28,7 +28,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32c3-bluetooth.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32c3-bluetooth.factory.bin",
                     "offset": 0
                 }
             ]
@@ -38,7 +38,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32c6-bluetooth.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32c6-bluetooth.factory.bin",
                     "offset": 0
                 }
             ]
@@ -48,7 +48,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32s3-bluetooth.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32s3-bluetooth.factory.bin",
                     "offset": 0
                 }
             ]

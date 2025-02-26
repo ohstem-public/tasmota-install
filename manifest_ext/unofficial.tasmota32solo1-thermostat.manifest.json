@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial/tasmota32solo1-thermostat.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32solo1-thermostat.factory.bin",
                     "offset": 0
                 }
             ]

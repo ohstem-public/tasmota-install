@@ -1,15 +1,14 @@
 {
-    "name": "Tasmota32 Solo1 Bluetooth (english)",
+    "name": "CoreIoT-Tasmota32-S3 (QIO Flash/OPI PSRAM)",
     "new_install_prompt_erase": true,
     "funding_url": "https://paypal.me/tasmota",
-    "new_install_improv_wait_time": 10,
     "builds": [
         {
-            "chipFamily": "ESP32",
+            "chipFamily": "ESP32-S3",
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32solo1-bluetooth.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/coreiot-tasmota32s3-qio_opi.factory.bin",
                     "offset": 0
                 }
             ]

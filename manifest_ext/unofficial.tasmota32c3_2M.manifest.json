@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial//tasmota32c3_2M.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial//tasmota32c3_2M.factory.bin",
                     "offset": 0
                 }
             ]

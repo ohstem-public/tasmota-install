@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/development/tasmota32-webcam.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/development/tasmota32-webcam.factory.bin",
                     "offset": 0
                 }
             ]
@@ -19,7 +19,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://tasmota.github.io/install/firmware/unofficial/tasmota32s3-qio_opi.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32s3-qio_opi.factory.bin",
                     "offset": 0
                 }
             ]
