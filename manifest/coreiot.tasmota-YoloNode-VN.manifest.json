@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-C3",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/tasmota32c3-coreiot.factory.bin", "offset": 0 }
+        { "path": "../firmware/unofficial/tasmota32c3-coreiot-VN.factory.bin", "offset": 0 }
       ]
     }
   ]

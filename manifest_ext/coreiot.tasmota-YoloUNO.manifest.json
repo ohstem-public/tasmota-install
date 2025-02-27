@@ -8,7 +8,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32s3psram-coreiot.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/unofficial/tasmota32s3psram-coreiot.factory.bin",
                     "offset": 0
                 }
             ]

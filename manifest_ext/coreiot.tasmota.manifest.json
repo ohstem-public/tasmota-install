@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32-coreiot.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/unofficial/tasmota32-coreiot.factory.bin",
                     "offset": 0
                 }
             ]
@@ -19,7 +19,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32c3-coreiot.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/unofficial/tasmota32c3-coreiot.factory.bin",
                     "offset": 0
                 }
             ]
@@ -29,7 +29,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32c6-coreiot.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/unofficial/tasmota32c6-coreiot.factory.bin",
                     "offset": 0
                 }
             ]
@@ -39,7 +39,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32s2-coreiot.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/unofficial/tasmota32s2-coreiot.factory.bin",
                     "offset": 0
                 }
             ]
@@ -49,7 +49,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32s3psram-coreiot.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/unofficial/tasmota32s3psram-coreiot.factory.bin",
                     "offset": 0
                 }
             ]
@@ -59,7 +59,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota4M-coreiot.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/unofficial/tasmota4M-coreiot.bin",
                     "offset": 0
                 }
             ]
