@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/development/firmware/unofficial/coreiot-tasmota32-VN.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/development/firmware/unofficial/tasmota32-coreiot-VN.factory.bin",
                     "offset": 0
                 }
             ]
@@ -19,27 +19,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/coreiot-tasmota32c3-VN.factory.bin",
-                    "offset": 0
-                }
-            ]
-        },
-        {
-            "chipFamily": "ESP32-C6",
-            "improv": true,
-            "parts": [
-                {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/coreiot-tasmota32c6-VN.factory.bin",
-                    "offset": 0
-                }
-            ]
-        },
-        {
-            "chipFamily": "ESP32-S2",
-            "improv": true,
-            "parts": [
-                {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/coreiot-tasmota32s2-VN.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32c3-coreiot-VN.factory.bin",
                     "offset": 0
                 }
             ]
@@ -49,7 +29,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/coreiot-tasmota32s3-qio_opi-VN.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32s3psram-coreiot-VN.factory.bin",
                     "offset": 0
                 }
             ]
@@ -59,7 +39,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/coreiot-tasmota-VN.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota4M-coreiot-VN.bin",
                     "offset": 0
                 }
             ]

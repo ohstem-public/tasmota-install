@@ -8,42 +8,42 @@
       "chipFamily": "ESP32",
       "improv": true,
       "parts": [
-        { "path": "../firmware/development/firmware/unofficial/coreiot-tasmota32.factory.bin", "offset": 0 }
+        { "path": "../firmware/development/firmware/unofficial/tasmota32-coreiot.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP32-C3",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/coreiot-tasmota32c3.factory.bin", "offset": 0 }
+        { "path": "../firmware/unofficial/tasmota32c3-coreiot.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP32-C6",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/coreiot-tasmota32c6.factory.bin", "offset": 0 }
+        { "path": "../firmware/unofficial/tasmota32c6-coreiot.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP32-S2",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/coreiot-tasmota32s2.factory.bin", "offset": 0 }
+        { "path": "../firmware/unofficial/tasmota32s2-coreiot.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP32-S3",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/coreiot-tasmota32s3-qio_opi.factory.bin", "offset": 0 }
+        { "path": "../firmware/unofficial/tasmota32s3psram-coreiot.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP8266",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/coreiot-tasmota.bin", "offset": 0 }
+        { "path": "../firmware/unofficial/tasmota4M-coreiot.bin", "offset": 0 }
       ]
     }
   ]
