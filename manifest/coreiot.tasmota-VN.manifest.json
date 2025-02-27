@@ -1,5 +1,5 @@
 {
-  "name": "Tasmota with Core IoT support (VN)",
+  "name": "Tasmota with Core IoT support - Generic (VN)",
   "new_install_prompt_erase": true,
   "funding_url": "https://paypal.me/tasmota",
   "new_install_improv_wait_time": 10,
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32",
       "improv": true,
       "parts": [
-        { "path": "../firmware/development/firmware/unofficial/tasmota32-coreiot-VN.factory.bin", "offset": 0 }
+        { "path": "../firmware/unofficial/tasmota32-coreiot-VN.factory.bin", "offset": 0 }
       ]
     },
     {

@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/development/firmware/unofficial/tasmota32-coreiot-VN.factory.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install//firmware/unofficial/tasmota32-coreiot-VN.factory.bin",
                     "offset": 0
                 }
             ]
