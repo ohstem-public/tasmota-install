@@ -8,28 +8,28 @@
       "chipFamily": "ESP32",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/tasmota32-coreiot-VN.factory.bin", "offset": 0 }
+        { "path": "../firmware/coreiot/tasmota32-coreiot-VN.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP32-C3",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/tasmota32c3-coreiot-VN.factory.bin", "offset": 0 }
+        { "path": "../firmware/coreiot/tasmota32c3-coreiot-VN.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP32-S3",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/tasmota32s3psram-coreiot-VN.factory.bin", "offset": 0 }
+        { "path": "../firmware/coreiot/tasmota32s3psram-coreiot-VN.factory.bin", "offset": 0 }
       ]
     },
     {
       "chipFamily": "ESP8266",
       "improv": true,
       "parts": [
-        { "path": "../firmware/unofficial/tasmota4M-coreiot-VN.bin", "offset": 0 }
+        { "path": "../firmware/coreiot/tasmota4M-coreiot-VN.bin", "offset": 0 }
       ]
     }
   ]
