@@ -2,7 +2,7 @@
     "coreiot": [
         {
             "path": "https://ohstem-public.github.io/tasmota-install/manifest_ext/coreiot.tasmota.manifest.json",
-            "name": "Tasmota with Core IoT support (English)",
+            "name": "Tasmota with Core IoT support - Generic (English)",
             "chipFamilies": [
                 "ESP32",
                 "ESP32-C3",
@@ -11,38 +11,10 @@
                 "ESP32-S3",
                 "ESP8266"
             ]
-        },
-        {
-            "path": "https://ohstem-public.github.io/tasmota-install/manifest_ext/coreiot.tasmota-YoloNode.manifest.json",
-            "name": "Tasmota with Core IoT support for Yolo Node (English)",
-            "chipFamilies": [
-                "ESP32-C3"
-            ]
-        },
-        {
-            "path": "https://ohstem-public.github.io/tasmota-install/manifest_ext/coreiot.tasmota-YoloNode-VN.manifest.json",
-            "name": "Tasmota with Core IoT support for Yolo Node (VN)",
-            "chipFamilies": [
-                "ESP32-C3"
-            ]
-        },
-        {
-            "path": "https://ohstem-public.github.io/tasmota-install/manifest_ext/coreiot.tasmota-YoloUNO.manifest.json",
-            "name": "Tasmota with Core IoT support for Yolo UNO (English)",
-            "chipFamilies": [
-                "ESP32-S3"
-            ]
-        },
-        {
-            "path": "https://ohstem-public.github.io/tasmota-install/manifest_ext/coreiot.tasmota-YoloUNO-VN.manifest.json",
-            "name": "Tasmota with Core IoT support for Yolo UNO (VN)",
-            "chipFamilies": [
-                "ESP32-S3"
-            ]
-        },
+        },        
         {
             "path": "https://ohstem-public.github.io/tasmota-install/manifest_ext/coreiot.tasmota-VN.manifest.json",
-            "name": "Tasmota with Core IoT support (VN)",
+            "name": "Tasmota with Core IoT support - Generic (VN)",
             "chipFamilies": [
                 "ESP32",
                 "ESP32-C3",
