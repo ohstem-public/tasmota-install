@@ -39,7 +39,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/coreiot/tasmota4M-coreiot-VN.bin",
+                    "path": "https://ohstem-public.github.io/tasmota-install/firmware/coreiot/tasmota1M-coreiot-VN.bin",
                     "offset": 0
                 }
             ]
